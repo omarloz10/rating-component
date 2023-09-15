@@ -1,0 +1,39 @@
+.card__thanks {
+  width: 335px;
+  height: 380px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: var(--DarkBlue);
+
+  .card__thanks_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 28px 0;
+  }
+
+  .card__thanks_subtitle {
+    margin: auto;
+    margin-bottom: 16px;
+    width: 200px;
+    padding: 8px;
+    border-radius: 15px;
+    color: var(--Orange);
+    font-size: 15px;
+    text-align: center;
+    background-color: var(--DarkBlueOpacity);
+  }
+
+  .card__thanks__title {
+    margin-bottom: 8px;
+    color: var(--White);
+    text-align: center;
+  }
+
+  .card__thanks__body {
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--LightGrey);
+  }
+}
